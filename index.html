@@ -1,13 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/index.css">
+
+    <title>GM3D | Impresiones 3D, Salta</title>
+</head>
+<body>
+    <div class="container-fluid p-0">
+            <header class="fondoheader">
+                <div class="fondoazul">
+                    <nav class="navbar navbar-expand-lg ">
+                        <div class="container-fluid">
+                          <a class="navbar-brand ms-5 mt-1" href="#"><img src="./assets/icons/logo.png" alt="GM3D" srcset="" width="150"></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link text-amarillo me-3" href="#">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-light me-3" href="#">Catálogo</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-light me-3" href="#">Servicios</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-light me-5" href="#">Quiene somos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="btn btn-orange me-4" href="#">Contacto</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                      <div class="line "></div>
+                      <div class=".row">
+                        <div class="col-7 text-light ms-5 mt-4">
+
+                            <p>Sumergete en el emocionante mundo de la impresion 3d personalizada con GM3D. Estamos revolucionando el cómo y el qué imprimir, llevando tus ideas al siguiente nivel</p>
+                          </div>
+                        </div>
+                </div>
+            </header>
+            <div class="d-grid justify-content-center mt-5">
+                <h2 class="" style="font-size: 30px;">Servicios</h2>
+                <div class="line" style="width: 21vh; padding: 0; margin: 0;"></div>
+            </div>
+            <div class="row  mt-5 w-100 align-items-center">
+                <!-- cubo del costado -->
+                <div class="col-1" style="width: 5vh; height: 200px; background-color: #0014B7; border-radius: 0px 15px 15px 0px;"></div>
+                <!-- tarjetas de servicios -->
+                <div class="col">
+                    <div class="card align-items-center bg-card  m-5" style="height: 90vh;">
+                        <img src="./assets/icons/modelado-3d.png" class="card-img-top icono-card" alt="...">
+                        <div class="card-body" style="border-radius: 15px;">
+                            <h6 class="text-naranja text-center" style="font-size: 20px;">Diseño 3D</h6>
+                          <p class="card-text text-light mt-4 text-center" style="font-size: 16px;">Utilizamos software avanzado y altamente especializado para crear diseños que abarcan una amplia gama de aplicaciones, desde merchandising corporativo hasta prototipos, maquetas, repuestos y objetos personalizados. </p>
+                          <a class="btn btn-orange mt-5 ">Más información</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card align-items-center bg-card  m-5"style="height: 90vh;">
+                        <img src="./assets/icons/3d-impresora.png" class="card-img-top icono-card" alt="...">
+                        <div class="card-body">
+                            <h6 class="text-naranja text-center mt-1 text-center" style="font-size: 20px;">Impresión 3D</h6>
+
+                          <p class="card-text text-light mt-4 text-center" style="font-size: 16px;">En nuestro servicio, contamos con impresoras 3D profesionales que nos permiten materializar cualquier idea que tengas en mente. Nuestro enfoque se centra en ofrecerte la mejor calidad, terminación y resistencia en todos tus pedidos. 
+                          </p>
+                          <a class="btn btn-orange mt-3 ">Más información</a>
+
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card align-items-center bg-card  m-5"style="height: 90vh;">
+                        <img src="./assets/icons/ayuda.png" class="icono-card card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="text-naranja text-center mt-1" style="font-size: 20px;">Asesoramiento 3D</h6>
+                          <p class="card-text text-light text-center" style="font-size: 16px;">
+                            Si te dedicas a la impresión 3D o si estás interesado en adentrarte en este emocionante mundo, también brindamos asesoramiento y ayuda para resolver cualquier duda o problema que puedas encontrar en el camino.
+                          </p>
+                          <a class="btn btn-orange mt-3 ">Más información</a>
+
+                        </div>
+                      </div>
+                </div>
+                <!-- fin tarjetas -->
+                <!-- cubo del costado -->
+                <div class="col-1" style="width: 5vh; height: 200px; background-color: #0014B7;
+                border-radius: 15px 0px 0px 15px;"></div>
+
+            </div>
+            <!-- <h3>asdasdasd</h3> -->
+            <footer class="bg-black">
+                <span>asdasdasdads</span>
+            </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
 </html>

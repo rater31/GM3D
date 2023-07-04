@@ -1,0 +1,56 @@
+.fondoheader{
+    background-image: url(../assets/photo/fondo-encabezado.jpg);
+    height: 706px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 1;
+ 
+    
+    
+}
+header a{
+    font-size: 18px;
+}
+header p{
+    font-size: 30px;
+}
+.fondoazul{
+    background-color: #1C66A666;
+    height: 706px;
+    
+
+}
+
+.btn-orange{
+    background-color: #A65C1C;
+    color: white;
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.75);
+}
+.btn-orange:hover{
+    background-color: #c46e22;
+    color:white;
+}
+.text-amarillo{
+    color: #FFF81D;
+}
+
+.line{
+    background-color: #A65C1C;
+    width: 350px;
+    height: 3px;
+    border-radius: 15px;
+    margin-left: 13vh;
+    margin-top: 12vh;
+}
+.bg-card{
+    background-color: #252525;
+}
+.text-naranja{
+    color: #A65C1C;
+}
+.icono-card{
+    width: 164px;
+}
