@@ -54,3 +54,15 @@ header p{
 .icono-card{
     width: 164px;
 }
+.fondo-somos{
+    background-image: url(../assets/photo/fondo-quienes-somos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 1297px;
+}
+.fondoNegro{
+    background-color: #25252580;
+    height: 1297px;
+
+}
