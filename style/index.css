@@ -12,8 +12,11 @@
 header a{
     font-size: 18px;
 }
-header a:hover{
-    color: blue;
+.link-a{
+    color: white;
+}
+.link-a:hover{
+    color: yellow;
 }
 header p{
     font-size: 30px;
