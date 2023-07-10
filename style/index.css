@@ -93,7 +93,14 @@ header p{
 .text-somos{
     font-size: 20px;
 }
-
+.img-vendidos{
+    width:326px;
+     height: 252px;
+      border-radius: 15px;
+}
+.icon-frecuentes{
+    width: 250px;
+}
 
 
 @media screen and (max-width:700px) {
@@ -124,8 +131,8 @@ header p{
 
     .fondo-somos{
         background-repeat: no-repeat;
-    background-size:auto;
-    height: 2000px;
+    background-size:cover;
+    height: auto;
 
     }
     .oso{
@@ -138,6 +145,15 @@ header p{
         width: 30vh;
     }
     .fondoNegro{
+        height: 2150px;
 
+    }
+    .img-vendidos{
+        width:210px;
+        height: 200px;
+        border-radius: 15px;
+    }
+    .icon-frecuentes{
+        width: 100px;
     }
 }
