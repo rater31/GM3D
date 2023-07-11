@@ -24,7 +24,6 @@ header p{
 .fondoazul{
     background-color: #1C66A666;
     height: 706px;
-    
 
 }
 
@@ -104,6 +103,10 @@ header p{
 .icon-frecuentes{
     width: 250px;
 }
+.logo-whap{
+    width: 10vh;
+    position: sticky;
+}
 
 
 @media screen and (max-width:700px) {
@@ -158,5 +161,9 @@ header p{
     }
     .icon-frecuentes{
         width: 100px;
+    }
+    .logo-whap{
+        width: 7vh;
+        position: sticky;
     }
 }
