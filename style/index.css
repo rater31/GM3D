@@ -107,6 +107,14 @@ header p{
     width: 10vh;
     position: sticky;
 }
+.hover-pie{
+    color: white;
+    text-decoration: none;
+}
+
+.hover-pie:hover{
+    color: yellow;
+}
 
 
 @media screen and (max-width:700px) {
