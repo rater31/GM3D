@@ -185,4 +185,7 @@ header p{
         width: 7vh;
         position: sticky;
     }
+    .logos-nosotros{
+        width: 100px;
+    }
 }
