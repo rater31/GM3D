@@ -115,6 +115,17 @@ header p{
 .hover-pie:hover{
     color: yellow;
 }
+.img-tarjeta{
+    width: 100%;
+    height: 250px;
+}
+.formulario{    
+    background-color: grey;
+    border-radius: 30px;
+}
+.logos-nosotros{
+    width: 200px;
+}
 
 
 @media screen and (max-width:700px) {
