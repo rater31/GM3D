@@ -126,6 +126,9 @@ header p{
 .logos-nosotros{
     width: 200px;
 }
+.logo-servicios{
+    width: 40%;
+}
 
 
 @media screen and (max-width:700px) {
