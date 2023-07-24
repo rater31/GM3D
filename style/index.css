@@ -14,6 +14,7 @@ header a{
 }
 .link-a{
     color: white;
+    text-decoration: none;
 }
 .link-a:hover{
     color: yellow;
@@ -38,6 +39,7 @@ header p{
     background-color: #c46e22;
     color:white;
 }
+
 .text-amarillo{
     color: #FFF81D;
 }
@@ -129,6 +131,20 @@ header p{
 .logo-servicios{
     width: 40%;
 }
+.drop-menu{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+   }
+   @keyframes bounce {
+   0%, 20%, 60%, 80% {transform: translateY(0);}
+   40% {transform: translateY(-20px);}
+   100% {transform: translateY(20px);}
+   }
+
 
 
 @media screen and (max-width:700px) {
