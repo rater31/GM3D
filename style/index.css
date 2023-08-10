@@ -88,7 +88,23 @@ header p{
 .text-encabezado{
     font-size: 30px;
 }
+.f{
+    border-radius: 10px;
+    background-color: transparent;
+    color:white
+}
+.f::placeholder{color:white}
 
+.contenedor-form{
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.37);
+    border:solid 3px #252525;
+}
+.fondo-contact{
+    background-image: url(../assets/photo/fondo-quienes-somos.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
 .oso{
     border-radius: 15px;
      width: 326px; 
