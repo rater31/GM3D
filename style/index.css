@@ -1,50 +1,72 @@
-.fondoheader{
+.fondoheader {
     background-image: url(../assets/photo/fondo-encabezado.jpg);
     height: 706px;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
     opacity: 1;
- 
-    
-    
+
+
+
 }
-header a{
+
+header a {
     font-size: 18px;
 }
-.link-a{
+
+.link-a {
     color: white;
     text-decoration: none;
 }
-.link-a:hover{
+
+.link-a:hover {
     color: yellow;
 }
-header p{
+
+header p {
     font-size: 30px;
 }
-.fondoazul{
+
+.fondoazul {
     background-color: #1C66A666;
     height: 706px;
 
 }
 
-.btn-orange{
-    background-color: #A65C1C;
-    color: white;
-    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.75);
-}
-.btn-orange:hover{
-    background-color: #c46e22;
-    color:white;
+.fondo-impresion {
+    background-image: url(../assets/photo/impresora-3d-impresion.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.text-amarillo{
+.cubo-blur {
+    
+    color: white;
+    background-color: #25252579;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    /* -webkit-backdrop-filter: blur(10px); */
+}
+
+
+.btn-orange {
+    background-color: #A65C1C;
+    color: white;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn-orange:hover {
+    background-color: #c46e22;
+    color: white;
+}
+
+.text-amarillo {
     color: #FFF81D;
 }
 
-.line{
+.line {
     background-color: #A65C1C;
     width: 350px;
     height: 3px;
@@ -52,175 +74,224 @@ header p{
     margin-left: 13vh;
     margin-top: 12vh;
 }
-.bg-card{
+
+.bg-card {
     background-color: #252525;
     height: 105vh;
 }
-.text-naranja{
+
+.text-naranja {
     color: #A65C1C;
 }
-.icono-card{
+
+.icono-card {
     width: 164px;
 }
-.fondo-somos{
+
+.fondo-somos {
     background-image: url(../assets/photo/fondo-quienes-somos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+
     height: 1297px;
 }
-.fondoNegro{
+
+.fondoNegro {
     background-color: #25252580;
     height: 1297px;
 
 }
-.cubo-orange{
+
+.cubo-orange {
     background-color: #A65C1C;
     border-radius: 15px;
     color: white;
 }
-.cubo-costado{
-    width: 5vh; 
+
+.cubo-costado {
+    width: 5vh;
     height: 200px;
     background-color: #0014B7;
     border-radius: 15px 0px 0px 15px;
 }
-.text-encabezado{
+
+.text-encabezado {
     font-size: 30px;
 }
-.f{
+
+.f {
     border-radius: 10px;
     background-color: transparent;
-    color:white
+    color: white
 }
-.f::placeholder{color:white}
 
-.contenedor-form{
+.f::placeholder {
+    color: white
+}
+
+.contenedor-form {
     border-radius: 15px;
     background-color: rgba(128, 128, 128, 0.37);
-    border:solid 3px #252525;
+    border: solid 3px #252525;
 }
-.fondo-contact{
+
+.fondo-contact {
     background-image: url(../assets/photo/fondo-quienes-somos.jpg);
     background-position: center;
     background-attachment: fixed;
 }
-.oso{
+
+.oso {
     border-radius: 15px;
-     width: 326px; 
-     height: 200;
+    width: 326px;
+    height: 200;
 }
-.text-somos{
+
+.text-somos {
     font-size: 20px;
 }
-.img-vendidos{
-    width:326px;
-     height: 252px;
-      border-radius: 15px;
+
+.img-vendidos {
+    width: 326px;
+    height: 252px;
+    border-radius: 15px;
 }
-.icon-frecuentes{
+
+.icon-frecuentes {
     width: 250px;
 }
-.logo-whap{
+
+.logo-whap {
     width: 10vh;
     position: sticky;
 }
-.hover-pie{
+
+.hover-pie {
     color: white;
     text-decoration: none;
 }
 
-.hover-pie:hover{
+.hover-pie:hover {
     color: yellow;
 }
-.img-tarjeta{
+
+.img-tarjeta {
     width: 100%;
     height: 250px;
 }
-.formulario{    
+
+.formulario {
     background-color: grey;
     border-radius: 30px;
 }
-.logos-nosotros{
+
+.logos-nosotros {
     width: 200px;
 }
-.logo-servicios{
+
+.logo-servicios {
     width: 40%;
 }
-.drop-menu{
+
+.drop-menu {
     background-color: transparent;
     border-color: transparent;
 }
 
 .bounce {
     animation: bounce 2s infinite;
-   }
-   @keyframes bounce {
-   0%, 20%, 60%, 80% {transform: translateY(0);}
-   40% {transform: translateY(-20px);}
-   100% {transform: translateY(20px);}
-   }
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    60%,
+    80% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
 
 
 
 @media screen and (max-width:700px) {
-    .line{
-            display: none;
+    .line {
+        display: none;
     }
-    .fondoheader{
+
+    .fondoheader {
         height: 89.4vh;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
-    .fondoazul{
+
+    .fondoazul {
         height: 89.4vh;
     }
-    .text-encabezado{
+
+    .text-encabezado {
         font-size: 25px;
         font-weight: bold;
-    
+
     }
-    .cubo-costado{
-        display:none;
+
+    .cubo-costado {
+        display: none;
     }
-    .bg-card{
+
+    .bg-card {
         height: 75vh;
     }
 
 
-    .fondo-somos{
+    .fondo-somos {
         background-repeat: no-repeat;
-    background-size:cover;
-    height: auto;
+        background-size: cover;
+        height: auto;
 
     }
-    .oso{
+
+    .oso {
         border-radius: 15px;
-        width: 220px; 
+        width: 220px;
         height: 100;
     }
-    .text-somos{
+
+    .text-somos {
         font-size: 15px;
         width: 30vh;
     }
-    .fondoNegro{
+
+    .fondoNegro {
         height: 2150px;
 
     }
-    .img-vendidos{
-        width:210px;
+
+    .img-vendidos {
+        width: 210px;
         height: 200px;
         border-radius: 15px;
     }
-    .icon-frecuentes{
+
+    .icon-frecuentes {
         width: 100px;
     }
-    .logo-whap{
+
+    .logo-whap {
         width: 7vh;
         position: sticky;
     }
-    .logos-nosotros{
+
+    .logos-nosotros {
         width: 100px;
     }
 }
