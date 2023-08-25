@@ -1,11 +1,14 @@
+
 .fondoheader {
     background-image: url(../assets/photo/fondo-encabezado.jpg);
-    height: 706px;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
     opacity: 1;
-
+     @media screen and (min-width:1000px) {
+      height: 200px;  
+    }
 
 
 }
@@ -29,8 +32,10 @@ header p {
 
 .fondoazul {
     background-color: #1C66A666;
-    height: 706px;
-
+    height: auto;
+    @media screen and (min-width:1000px) {
+        height: 200px;  
+      }
 }
 
 .fondo-impresion {
@@ -42,7 +47,7 @@ header p {
 .cubo-blur {
     
     color: white;
-    background-color: #25252579;
+    background-color: rgba(255, 68, 0, 0.596);
     border-radius: 30px;
     backdrop-filter: blur(10px);
     /* -webkit-backdrop-filter: blur(10px); */
@@ -234,7 +239,7 @@ header p {
         display: none;
     }
 
-    .fondoheader {
+    /* .fondoheader {
         height: 89.4vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -243,7 +248,7 @@ header p {
 
     .fondoazul {
         height: 89.4vh;
-    }
+    } */
 
     .text-encabezado {
         font-size: 25px;
