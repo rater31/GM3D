@@ -250,7 +250,7 @@ header p {
 
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .line {
         display: none;
     }
